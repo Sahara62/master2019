@@ -9,11 +9,11 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-Automatic driving technology has been rapidly development in recent years.  For safety and efficient cities with a lot of such autonomous-vehicle, we need to consider not only control systems for individual vehicles but also those for a group of vehicles.  In this article, we investigate a way to modeling and verification of autonomous-vehicle group control algolithms using a model checking technique UPPAAL.
+	Automatic driving technology has been rapidly development in recent years.  For safety and efficient cities with a lot of such autonomous-vehicle, we need to consider not only control systems for individual vehicles but also those for a group of vehicles.  In this article, we investigate a way to modeling and verification of autonomous-vehicle group control algorithms using a model checking technique UPPAAL.
 \end{abstract}
 
 \section{Introduction}
-　　　Automatic driving technology is more and more developing.  Automatic driving is divided into level  5 depending on technology installed.  In Japan, general car install level 2 supporting driver.  In the future,  Japan government set a goal that the vehicle installed level 4 become popular.  If a lot of automatic driving cars are used in a city, some problems may be occurred.  Thus, we need autonomous-vehicle group control algorithms.  In this paper, I verify the autonomous-vehicle group control algorithms with formal method.
+	Automatic driving technology is more and more developing.  Automatic driving is divided into level  5 depending on technology installed.  In Japan, general car install level 2 supporting driver.  In the future,  Japan government set a goal that the vehicle installed level 4 become popular.  If a lot of automatic driving cars are used in a city, some problems may be occurred.  Thus, we need autonomous-vehicle group control algorithms.  In this paper, I verify the autonomous-vehicle group control algorithms with formal method.
 %\begin{figur}
 %	\centering
 %	\includegraphics[]{}
@@ -21,8 +21,15 @@ Automatic driving technology has been rapidly development in recent years.  For 
 %	\label{}
 %\end{figur}
 \section{Past research}
-	Autonomous-vehicle have been researched long time.  
-\section{a}
+	Autonomous-vehicle have been researched long time.  Systems support drivers to avoid conflict, and to control safety.  Cars are necessary for our lives, but traffic accidents happen anytime.  Therefore, we must not drive car.  Autonomous-vegicle is necessary for human life in the future.  A collision avoidance systems were developed to coution to driver.   
+\section{Methods}
+	\subsection{Model checking tool UPPAAL}
+		UPPAAL is an integrated tool environment for modeling, simulation, and verification of real-time systems.  UPPAAL provides graphical interface to describe timed automata and simulate and verify them. UPPAAL's timed automata is an extension of usual timed automata.  We declare local and global variables for data types and clocks. In UPPAAL, a system model consists of collection of timed automata.  Global variables are declared for a system model.  
+\section{Results}
+	\subsection{Modeling and Verification of Intersections}
+		In this section we give a system model of intersections with several autonomous vehicles.  There is an intersection without traffic lights.
+\section{Conclusion}
+	We proposed a modeling and verification method of autonomous-vehicle group control algorithms using UPPAAL. We could verify and modeling the behavior of autonomous vehicles at an intersection.
 \begin{thebibliography}{1}
  \bibitem{u1}{Kim Guldstrand Larsen and Paul Pettersson and Wang Yi, UPPAAL in a Nutshell, International Jour- nal of Software Tools for Technology Transfer, Vol.1, No.1-2, pp.134-152, 1997.}
 \end{thebibliography}

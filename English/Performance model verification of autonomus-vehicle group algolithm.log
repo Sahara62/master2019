@@ -1,11 +1,11 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.10.18)  31 MAY 2019 21:09
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.9.22)  7 JUN 2019 00:50
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **"Performance model verification of autonomus-vehicle group algolithm.tex"
 (./Performance model verification of autonomus-vehicle group algolithm.tex
-pLaTeX2e <2018-07-28>+1 (based on LaTeX2e <2018-04-01> patch level 5)
+pLaTeX2e <2018-04-01>+1 (based on LaTeX2e <2018-04-01> patch level 2)
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
@@ -55,8 +55,7 @@ File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
 \Gin@req@height=\dimen119
 \Gin@req@width=\dimen120
 )
-No file "Performance model verification of autonomus-vehicle group algolithm".a
-ux.
+(./Performance model verification of autonomus-vehicle group algolithm.aux)
 \openout1 = `"Performance model verification of autonomus-vehicle group algolit
 hm.aux"'.
 
@@ -90,21 +89,23 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 26.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 26.
+
 [1
 
-] (./Performance model verification of autonomus-vehicle group algolithm.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] [2]
+(./Performance model verification of autonomus-vehicle group algolithm.aux) ) 
 Here is how much of TeX's memory you used:
- 665 strings out of 493248
- 8741 string characters out of 6144401
- 74320 words of memory out of 5000000
- 4675 multiletter control sequences out of 15000+600000
- 14073 words of font info for 55 fonts, out of 8000000 for 9000
+ 670 strings out of 493281
+ 8928 string characters out of 6145041
+ 74766 words of memory out of 5000000
+ 4648 multiletter control sequences out of 15000+600000
+ 14380 words of font info for 56 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,6n,21p,612b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,6n,21p,607b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on "Performance model verification of autonomus-vehicle group al
-golithm.dvi" (1 page, 2432 bytes).
+golithm.dvi" (2 pages, 4204 bytes).

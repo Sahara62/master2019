@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.9.22)  7 JUN 2019 00:50
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.9.22)  7 JUN 2019 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -90,9 +90,9 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 26.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 26.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 28.
 
 [1
 
@@ -105,7 +105,7 @@ Here is how much of TeX's memory you used:
  4648 multiletter control sequences out of 15000+600000
  14380 words of font info for 56 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,6n,21p,607b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,6n,21p,609b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on "Performance model verification of autonomus-vehicle group al
 golithm.dvi" (2 pages, 4204 bytes).

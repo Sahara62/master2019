@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.10.18)  19 JUN 2019 18:02
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.10.18)  20 JUN 2019 17:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -225,23 +225,23 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 27.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 27.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 30.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
  [1
 
 ] (./CSCW.aux) ) 
 Here is how much of TeX's memory you used:
- 1907 strings out of 493248
- 22255 string characters out of 6144401
+ 1904 strings out of 493248
+ 22237 string characters out of 6144401
  91044 words of memory out of 5000000
- 5859 multiletter control sequences out of 15000+600000
+ 5856 multiletter control sequences out of 15000+600000
  17979 words of font info for 78 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 27i,6n,27p,215b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,6n,27p,351b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CSCW.dvi (1 page, 1332 bytes).
+Output written on CSCW.dvi (1 page, 2768 bytes).

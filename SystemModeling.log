@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.9.22)  1 JUL 2019 00:00
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.9.22)  2 JUL 2019 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -272,10 +272,10 @@ Overfull \hbox (0.7176pt too wide) in paragraph at lines 80--81
 
 ] (./SystemModeling.aux) ) 
 Here is how much of TeX's memory you used:
- 3241 strings out of 493281
- 41234 string characters out of 6145041
- 113283 words of memory out of 5000000
- 7146 multiletter control sequences out of 15000+600000
+ 3238 strings out of 493281
+ 41216 string characters out of 6145041
+ 113274 words of memory out of 5000000
+ 7143 multiletter control sequences out of 15000+600000
  18474 words of font info for 80 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,7n,32p,233b,299s stack positions out of 5000i,500n,10000p,200000b,80000s

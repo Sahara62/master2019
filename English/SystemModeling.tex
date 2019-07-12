@@ -81,11 +81,53 @@ int cross[4];
   \caption{車両のテンプレート}
   \label{temp}
 \end{figure}
-パラメータはどの方向の車両かを示すdecを宣言し，大域変数を参照する（図\ref{temp}）。
-\section{システム宣言}
+パラメータはどの方向の車両かを示すdecを宣言し，大域変数を参照し，各車両の始点終点を保持するset, goを宣言した（図\ref{temp}）。
+\subsection{システム宣言}
+sn = AV(dir30, 3, 0);
+
+sn2 = AV(dir30, 3, 0);
+
+ns = AV(dir03, 0, 3);
+
+ew = AV(dir12, 1, 2);
+
+ew2 = AV(dir12, 1, 2);
+
+we = AV(dir21, 2, 1);
+
+system	sn,sn2,ns,ew,ew2,we;
+
+南から北へ直視する車両をsnとsn2，その逆をns，東から西へ直進する車両をewとew2，その逆をwe，として宣言した。
+\section{シミュレーション}
+東から西へ直進するewが交差点を通過中で，西から東へ直進するweと東から西へ直進するew2が交差点に進入する時の状態がシミュレーション画面に表示されている（図\ref{simu}）。その時可能な遷移はweとewだけである。cross配列3が1なのでew2が遷移できない（図\ref{able}）。ewが遷移するまでew2はpassingローカルに遷移できないからである。
+
+\begin{figure}
+  \centering
+  \includegraphics[width=60mm]{simu.png}
+  \caption{シミュレーション画面}
+  \label{simu}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=50mm]{able.png}
+  \caption{遷移可能な車両}
+  \label{able}
+\end{figure}
+
+\section{検証}
+6台の車両が交差点を通過終了する最小時間の検証を行う。
+最小時間の検証は基本特性の到達可能性と安全特性を組み合わせて行う。
+まず，到達可能性を検証し，その性質が満たされるならば，安全特性の検証を行う。そして，安全特性が満たされれば最小時間が算出できたことになり，満たされなければ最小時間ではないことがわかるため，再度，到達可能性の検証を行う。この一連を繰り返した結果，本モデルにおける最小時間は，18単位時間であることがわかった。
+満たされた検証式を次に示す。
+
+$E<>$ (gc==18 and (ns.final and we.final and sn.final and ew.final and sn2.final and ew2.final))
 
 
 
+$A[]$ ($gc<18$ imply not (ns.final and we.final and sn.final and ew.final and sn2.final and ew2.final))
+
+\section{まとめ}
+直進する車両だけならば，進行方向が垂直な時は遷移不可で，かつ同方向で前方車がいるときの遷移不可になることを確認できた。また６台の通過最小時間は18単位時間だったので，前方車追従を行いながら，進行方向が平行な車両が同時に通過することによってこの値になったと考えられる。
 \end{document}
 \begin{itemize}
   \item item1

@@ -1,11 +1,11 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.10.18)  28 JUN 2019 10:33
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.9.22)  12 JUL 2019 10:11
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **"Modeling the Vehicles at Intersection without Traffic Light.tex"
 (./Modeling the Vehicles at Intersection without Traffic Light.tex
-pLaTeX2e <2018-07-28>+1 (based on LaTeX2e <2018-04-01> patch level 5)
+pLaTeX2e <2018-04-01>+1 (based on LaTeX2e <2018-04-01> patch level 2)
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
@@ -90,21 +90,37 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 26.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 26.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 20.
  [1
 
 ]
-[2] (./Modeling the Vehicles at Intersection without Traffic Light.aux) ) 
+File: model_Inter.png Graphic file (type bmp)
+<model_Inter.png>
+File: temp.png Graphic file (type bmp)
+<temp.png>
+File: Global_dec.png Graphic file (type bmp)
+<Global_dec.png>
+File: local_dec.png Graphic file (type bmp)
+<local_dec.png>
+File: SysD.png Graphic file (type bmp)
+<SysD.png>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 60.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 60.
+
+[2] [3] [4] [5]
+(./Modeling the Vehicles at Intersection without Traffic Light.aux) ) 
 Here is how much of TeX's memory you used:
- 670 strings out of 493248
- 8856 string characters out of 6144401
- 75320 words of memory out of 5000000
- 4678 multiletter control sequences out of 15000+600000
+ 700 strings out of 493281
+ 9338 string characters out of 6145041
+ 74766 words of memory out of 5000000
+ 4666 multiletter control sequences out of 15000+600000
  14380 words of font info for 56 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,6n,21p,604b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,6n,21p,745b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on "Modeling the Vehicles at Intersection without Traffic Light.
-dvi" (2 pages, 4200 bytes).
+dvi" (5 pages, 7876 bytes).
